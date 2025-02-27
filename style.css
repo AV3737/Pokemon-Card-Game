@@ -1,0 +1,121 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.cursor{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(210, 8, 8);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
+#pcard{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+#cards{
+  border: 2px solid salmon;
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/14/15/10/pokemon-1593089_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+}
+#card1{
+  border: 2px solid salmon;
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+  rotate(-10deg);
+  background-image: url(https://cdn.pixabay.com/photo/2023/05/23/12/48/squirtle-8012702_640.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+#card2{
+  border: 2px solid salmon;
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+  rotate(-20deg);
+  background-image: url(https://cdn.pixabay.com/photo/2023/05/23/12/48/pokemon-8012706_640.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+#card3{
+  border: 2px solid salmon;
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+  rotate(-30deg);
+  background-image: url(https://cdn.pixabay.com/photo/2024/02/03/21/48/ai-generated-8551132_640.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+#card4{
+  border: 2px solid salmon;
+  height: 320px;
+  width: 240px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+  rotate(-40deg);
+  background-image: url(https://cdn.pixabay.com/photo/2023/05/29/01/28/eevee-8024841_640.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+#card2:hover{
+  z-index: 4;
+}
+#card1:hover{
+  z-index: 4;
+}
+#card3:hover{
+  z-index: 4;
+}
+#card4:hover{
+  z-index: 4;
+}
+@media(max-width:1000px){
+  .cursor{
+    display: none;
+  }
+}
